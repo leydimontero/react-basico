@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import Pedidos from './Components/Pedidos'
-import Pizza from './Components/Pizza'
+import RickApi from './Components/Actividad.Api/RickApi.jsx'
 
 function App() {
   const [toggle, setToggle] = useState(false)
   
   return (
       <>
-        <Pedidos/>
+        
+        <RickApi/>
         
       </>
   )
